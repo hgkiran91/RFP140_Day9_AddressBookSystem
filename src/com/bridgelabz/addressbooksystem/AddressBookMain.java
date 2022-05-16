@@ -1,7 +1,5 @@
 package com.bridgelabz.addressbooksystem;
 
-import java.util.Scanner;
-
 public class AddressBookMain {
 
     public static void main(String[] args) {
@@ -9,5 +7,6 @@ public class AddressBookMain {
 
         AddressBook addressBook = new AddressBook();
         addressBook.addPerson();
+        addressBook.editContact();
     }
 }
